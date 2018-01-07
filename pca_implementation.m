@@ -2,7 +2,7 @@ clear ; close all; clc
 
 fprintf('Visualizing example dataset for PCA.\n\n');
 
-load ('ex7data1.mat');
+load ('data1.mat');
 
 plot(X(:, 1), X(:, 2), 'bo');
 axis([0.5 6.5 2 8]); axis square;
@@ -54,7 +54,7 @@ pause;
 
 fprintf('\nLoading face dataset.\n\n');
 
-load ('ex7faces.mat')
+load ('faces.mat')
 
 displayData(X(1:100, :));
 
